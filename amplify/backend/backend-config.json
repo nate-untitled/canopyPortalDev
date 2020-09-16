@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"canopyportala201610b": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

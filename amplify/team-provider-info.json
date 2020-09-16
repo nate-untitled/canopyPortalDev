@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-canopyportal-dev-131245-authRole",
+            "UnauthRoleArn": "arn:aws:iam::946293809597:role/amplify-canopyportal-dev-131245-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::946293809597:role/amplify-canopyportal-dev-131245-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-canopyportal-dev-131245-deployment",
+            "UnauthRoleName": "amplify-canopyportal-dev-131245-unauthRole",
+            "StackName": "amplify-canopyportal-dev-131245",
+            "StackId": "arn:aws:cloudformation:us-east-1:946293809597:stack/amplify-canopyportal-dev-131245/d841cb00-f83f-11ea-ae56-0a1f955da693",
+            "AmplifyAppId": "d2pbgcvkj0hpzk"
+        },
+        "categories": {
+            "auth": {
+                "canopyportala201610b": {}
+            }
+        }
+    }
+}
