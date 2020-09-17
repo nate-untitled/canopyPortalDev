@@ -1,7 +1,6 @@
 import React from 'react';
-import './App.css';
-import NavBar from '../containers/NavBar';
-import Content from '../containers/Content';
+import './App.less';
+import Dashboard from '../containers/Dashboard';
 import { AmplifyAuthenticator } from '@aws-amplify/ui-react';
 import { AuthState, onAuthUIStateChange } from '@aws-amplify/ui-components';
 
@@ -17,14 +16,7 @@ const AuthStateApp = () => {
     }, []);
 
   return authState === AuthState.SignedIn && user ? (
-    <div className="App">
-        <nav>
-            <NavBar></NavBar>
-        </nav>
-        <main>
-            <Content></Content>
-        </main>
-    </div>
+    <Dashboard />
     ) : (
       <AmplifyAuthenticator />
   );
