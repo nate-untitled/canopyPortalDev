@@ -4,7 +4,7 @@ import Dashboard from '../containers/Dashboard';
 import { AmplifyAuthenticator } from '@aws-amplify/ui-react';
 import { AuthState, onAuthUIStateChange } from '@aws-amplify/ui-components';
 
-const AuthStateApp = () => {
+const Auth = () => {
     const [authState, setAuthState] = React.useState();
     const [user, setUser] = React.useState();
 
@@ -22,4 +22,4 @@ const AuthStateApp = () => {
   );
 }
 
-export default AuthStateApp;
+export default Auth;
